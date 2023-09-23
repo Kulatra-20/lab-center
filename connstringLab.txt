@@ -1,0 +1,8 @@
+<?php
+//criação da connection string
+  $servername='sql212.epizy.com';
+  $username='epiz_22285812';
+  $password='adminlbcenter';
+  $dbName='epiz_22285812_bdlabcenter';
+  $con=new mysqli($servername, $username, $password, $dbName);
+?>
